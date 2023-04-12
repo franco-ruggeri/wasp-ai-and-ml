@@ -23,6 +23,7 @@ highest(player1) :-
     card(Card1,Value1),
     card(Card2,Value2),
     Value1 > Value2.                                % player 1 has the highest card
+highest(player2) :- \+highest(player1), \+highest(none).
 
 winner :- highest(player1).
 winner :- highest(none), coin(heads).
