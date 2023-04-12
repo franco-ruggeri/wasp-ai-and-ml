@@ -1,0 +1,14 @@
+evidence(draw1(jack)).
+evidence(\+winner).
+---
+evidence(draw1(ace)).
+evidence(winner).
+---
+evidence(draw1(ace)).
+evidence(\+winner).
+---
+evidence(draw1(king)).
+evidence(winner).
+---
+evidence(draw1(queen)).
+evidence(\+winner).
