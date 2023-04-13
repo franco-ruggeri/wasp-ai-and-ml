@@ -135,7 +135,7 @@ best_hand(Cards,Hand) :-
 
 %%%% Given that player2 draws the hand [ace, king, queen, ace], and that the coin comes up tails, what is the posterior
 %%%% belief that your opponent is cheating?
-%%%% Your answer: 2/3 = 0.066666...
+%%%% Your answer: 2/3 = 0.66666...
 %% This query corresponds to the probability: P[cheater | [ace,king,queen,ace], tails].
 %% Manual calculation yields the same result as ProbLog. ProbLog can calculate it by commenting the following lines:
 % evidence(draw_hand(player2,[ace,king,queen,ace])).
