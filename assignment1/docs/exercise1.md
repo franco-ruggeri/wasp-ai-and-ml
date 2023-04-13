@@ -2,7 +2,7 @@
 
 ## Bayesian network
 
-![](plantuml/exercise1_bn.svg)
+![](plantuml/exercise1.svg)
 
 ## Conditional probability tables
 
