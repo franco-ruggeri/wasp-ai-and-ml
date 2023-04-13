@@ -1,0 +1,18 @@
+@startuml
+hide empty description
+
+state "Cheater" as cheater
+state "Draw1" as draw1
+state "Draw2" as draw2
+state "Highest" as highest
+state "Coin" as coin
+state "Winner" as winner
+
+cheater --> draw2
+cheater --> coin
+draw1 --> highest
+draw2 --> highest
+highest --> winner
+coin --> winner
+
+@enduml
