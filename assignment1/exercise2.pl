@@ -1,7 +1,5 @@
 %%%% Implement the following predicates.
 
-:- use_module(library(lists)).
-
 % Rank values
 value(jack,11).
 value(queen,12).
@@ -74,6 +72,8 @@ better(BetterHand,WorseHand) :-
 
 %%%% Provided code
 
+:- use_module(library(lists)).
+
 game_outcome(Cards1,Cards2,Outcome) :-
     best_hand(Cards1,Hand1),
     best_hand(Cards2,Hand2),
@@ -86,9 +86,3 @@ outcome(Hand1,Hand2,tie) :- \+better(Hand1,Hand2), \+better(Hand2,Hand1).
 best_hand(Cards,Hand) :-
     hand(Cards,Hand),
     \+ (hand(Cards,Hand2), better(Hand2,Hand)).
-
-
-
-
-
-
