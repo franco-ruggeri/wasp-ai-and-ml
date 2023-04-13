@@ -14,5 +14,4 @@ draw1 --> highest
 draw2 --> highest
 highest --> winner
 coin --> winner
-
 @enduml
