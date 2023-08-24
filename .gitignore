@@ -132,5 +132,8 @@ dmypy.json
 .idea/
 .vscode/
 
-# Results
-results/
+# Specific assignment files
+/assignment1/results/
+/assignment3/codesubset/
+/assignment3/codesubset.tar.gz
+/assignment3/ecg-preprocessing/
