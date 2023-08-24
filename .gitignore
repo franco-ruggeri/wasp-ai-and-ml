@@ -137,3 +137,5 @@ dmypy.json
 /assignment3/codesubset/
 /assignment3/codesubset.tar.gz
 /assignment3/ecg-preprocessing/
+/assignment3/requiremenets.txt
+/assignment3/model.pth
