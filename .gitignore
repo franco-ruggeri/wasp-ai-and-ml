@@ -132,6 +132,9 @@ dmypy.json
 .idea/
 .vscode/
 
+# MacOS
+.DS_Store
+
 # Specific assignment files
 /assignment1/results/
 /assignment3/codesubset/
