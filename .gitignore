@@ -137,8 +137,8 @@ dmypy.json
 
 # Specific assignment files
 /assignment1/results/
-/assignment3/codesubset/
-/assignment3/codesubset.tar.gz
-/assignment3/ecg-preprocessing/
-/assignment3/requiremenets.txt
-/assignment3/model.pth
+/assignment2/codesubset/
+/assignment2/codesubset.tar.gz
+/assignment2/ecg-preprocessing/
+/assignment2/requiremenets.txt
+/assignment2/model.pth
